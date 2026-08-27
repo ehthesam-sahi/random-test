@@ -11,10 +11,10 @@ public:
         input = str;
     }
 
-    void parse() {
+
         expression();
 
-        if (pos == input.length()) {
+        if(pos == input.length()) {
             cout << "Parsing Successful!" << endl;
         } else {
             cout << "Parsing Error!" << endl;
