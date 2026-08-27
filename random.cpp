@@ -18,7 +18,6 @@ int main() {
     s.name = "Sahi";
     s.age = 22;
 
-    s.display();
 
     return 0;
 }
